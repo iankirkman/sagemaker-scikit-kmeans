@@ -14,7 +14,7 @@ then
 fi
 
 chmod +x scikit-kmeans/train
-chmod +x sickit-kmeans/serve
+chmod +x scikit-kmeans/serve
 
 # Get the account number associated with the current IAM credentials
 account=$(aws sts get-caller-identity --query Account --output text)
